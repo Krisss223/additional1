@@ -1,0 +1,311 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/**-----------------------------------HEADER-------------**/
+
+.header-logo {
+    color: #111;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+}
+
+.header-logo-italic {
+    font-style: italic;
+}
+
+.header-menu-link {
+    color: #111;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+
+/* *----------------------------------------HERO-----------------* */
+.hero {
+    background: rgba(17, 17, 17, 0.60);
+}
+
+.hero-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+}
+
+.hero-btn {
+    color: #FFF;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hero-link-btn {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.hero-down-btn {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+}
+
+/** ------------------------------------ADVANTAGES-------------- */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantages {
+    background: #1E1823;
+}
+
+
+.advantages-subtitle {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.advantages-item-text {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+/** -----------------------------------TASTE--------- */
+
+.taste-title {
+    color: #111;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.taste-detail {
+    color: #FD9222;
+}
+
+.taste-text {
+    color: #111;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+
+.taste-subtitle {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+/** -------------------------------------MADE--------- */
+
+.made-title {
+    color: #111;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.made-title-detail {
+    color: #FD9222;
+}
+
+.made-text-title {
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+}
+
+
+.made-text {
+    color: #111;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+/** -----------------------------PRODUCTS--------------- */
+
+
+.products-title {
+    color: #111;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.products-title-detail {
+    color: #FD9222;
+}
+
+
+.products-subtitle {
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.products-text {
+    color: rgba(17, 17, 17, 0.70);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+}
+
+.products-price {
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* *------------------------- SELLERS-----------------*/
+
+
+.sellers-title {
+    color: #111;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.sellers-title-detail {
+    color: #FD9222;
+}
+
+
+.sellers-subtitle {
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+/* *-----------------------LOVED-------------- */
+
+.loved-title {
+    color: #111;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.loved-title-detail {
+    color: #FD9222;
+}
+
+.loved-subtitle {
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+}
+
+.loved-text {
+    color: rgba(17, 17, 17, 0.70);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+.loved-btn {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/** ---------------------FOOTER------------ */
+.footer {
+    background: #1E1823;
+}
+
+.footer-text-subtitle {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.21;
+    letter -spacing: -0.02em;
+}
+
+.footer-text-detail {
+    color: #FD9222;
+}
+
+.footer-text {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+}
+
+
+.footer-link-address {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+.footer-link-navigation {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
