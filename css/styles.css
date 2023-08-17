@@ -408,13 +408,24 @@ img {
     line-height: 1.17;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .products-title-detail {
     color: #FD9222;
 }
 
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 18px;
+}
+
+.products-item {
+    width: calc((100% - 54) / 4);
+}
 
 .products-subtitle {
     color: #111;
