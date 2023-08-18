@@ -134,6 +134,9 @@ img {
 .hero-container {
     background: rgba(17, 17, 17, 0.60);
     border-radius: 30px;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(../images/chocolate_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-title {
@@ -399,6 +402,7 @@ img {
 
 .products {
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .products-title {
@@ -424,7 +428,13 @@ img {
 }
 
 .products-item {
-    width: calc((100% - 54) / 4);
+    width: calc((100% - 54px) / 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
 }
 
 .products-subtitle {
@@ -434,6 +444,7 @@ img {
     line-height: 1.33;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    margin-top: 10px;
 }
 
 .products-text {
@@ -442,6 +453,8 @@ img {
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: -0.02em;
+    margin-bottom: 18px;
+
 }
 
 .products-price {
@@ -450,10 +463,17 @@ img {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    border-radius: 100px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FAFAFA;
+    padding: 8px 20px;
+    margin-bottom: 32px;
 }
 
 /* *------------------------- SELLERS-----------------*/
-
+.sellers {
+    padding-bottom: 120px;
+}
 
 .sellers-title {
     color: #111;
@@ -462,11 +482,30 @@ img {
     line-height: 1.17;
     letter-spacing: -0.03em;
     text-transform: uppercase;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .sellers-title-detail {
     color: #FD9222;
 }
+
+.sellers-list {
+    display: flex;
+    gap: 16px;
+
+}
+
+.sellers-item {
+    border-radius: 0px 0px 15px 15px;
+    border-right: 1px solid rgba(17, 17, 17, 0.10);
+    border-bottom: 1px solid rgba(17, 17, 17, 0.10);
+    border-left: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
+}
+
+
 
 
 .sellers-subtitle {
@@ -476,9 +515,17 @@ img {
     line-height: 1.33;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
 }
 
 /* *-----------------------LOVED-------------- */
+
+.loved {
+    padding-bottom: 120px;
+}
 
 .loved-title {
     color: #111;
@@ -487,10 +534,36 @@ img {
     line-height: 1.17;
     letter-spacing: -0.03em;
     text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
 }
 
 .loved-title-detail {
     color: #FD9222;
+}
+
+.loved-list {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.loved-item {
+    max-width: 360px;
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
+    box-shadow: 0px 9.049315452575684px 100px 0px rgba(17, 17, 17, 0.03);
+    position: relative;
+}
+
+.loved-img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .loved-subtitle {
@@ -498,6 +571,10 @@ img {
     font-size: 18px;
     font-weight: 600;
     line-height: 1.33;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    padding-top: 59px;
 }
 
 .loved-text {
@@ -506,6 +583,8 @@ img {
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.02em;
+    width: 312px;
+    padding: 0 24px 24px 24px;
 }
 
 .loved-btn {
@@ -513,19 +592,40 @@ img {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 600;
+    padding: 14px 40px;
+    border-radius: 100px;
+    border: 1px solid #FD9222;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
 }
 
 /** ---------------------FOOTER------------ */
 .footer {
     background: #1E1823;
+    padding: 50px 0;
 }
+
+.footer-container-one {
+    display: flex;
+}
+
+.footer-container-soc {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 62px;
+}
+
+.footer-container-address {}
 
 .footer-text-subtitle {
     color: #FFF;
     font-size: 28px;
     font-weight: 500;
     line-height: 1.21;
-    letter -spacing: -0.02em;
+    letter-spacing: -0.02em;
+    max-width: 320px;
 }
 
 .footer-text-detail {
@@ -534,17 +634,25 @@ img {
 
 .footer-text {
     color: #FFF;
+    text-align: center;
     font-size: 14px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 1.29;
+    line-height: 1.2;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 14px;
 }
 
 
 .footer-link-address {
     color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
     font-size: 14px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 1.29;
+    line-height: 1.2;
     letter-spacing: -0.02em;
 }
 
